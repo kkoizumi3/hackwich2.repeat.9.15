@@ -16,6 +16,7 @@
 		3CE2CE412AB5A5F20077D5ED /* hackwich2_repeat_9_15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2CE402AB5A5F20077D5ED /* hackwich2_repeat_9_15Tests.swift */; };
 		3CE2CE4B2AB5A5F20077D5ED /* hackwich2_repeat_9_15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2CE4A2AB5A5F20077D5ED /* hackwich2_repeat_9_15UITests.swift */; };
 		3CE2CE4D2AB5A5F20077D5ED /* hackwich2_repeat_9_15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2CE4C2AB5A5F20077D5ED /* hackwich2_repeat_9_15UITestsLaunchTests.swift */; };
+		3CE2CE5A2AB5AD380077D5ED /* secondTryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2CE592AB5AD380077D5ED /* secondTryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3CE2CE462AB5A5F20077D5ED /* hackwich2.repeat.9.15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackwich2.repeat.9.15UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE2CE4A2AB5A5F20077D5ED /* hackwich2_repeat_9_15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackwich2_repeat_9_15UITests.swift; sourceTree = "<group>"; };
 		3CE2CE4C2AB5A5F20077D5ED /* hackwich2_repeat_9_15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackwich2_repeat_9_15UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CE2CE592AB5AD380077D5ED /* secondTryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3CE2CE1D2AB5A5F10077D5ED = {
 			isa = PBXGroup;
 			children = (
+				3CE2CE592AB5AD380077D5ED /* secondTryViewController.swift */,
 				3CE2CE282AB5A5F10077D5ED /* hackwich2.repeat.9.15 */,
 				3CE2CE3F2AB5A5F20077D5ED /* hackwich2.repeat.9.15Tests */,
 				3CE2CE492AB5A5F20077D5ED /* hackwich2.repeat.9.15UITests */,
@@ -260,6 +263,7 @@
 			files = (
 				3CE2CE2E2AB5A5F10077D5ED /* ViewController.swift in Sources */,
 				3CE2CE2A2AB5A5F10077D5ED /* AppDelegate.swift in Sources */,
+				3CE2CE5A2AB5AD380077D5ED /* secondTryViewController.swift in Sources */,
 				3CE2CE2C2AB5A5F10077D5ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
