@@ -9,6 +9,9 @@ import UIKit
 
 class secondTryViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +22,11 @@ class secondTryViewController: UIViewController {
     @IBAction func changeColorButtonPressed(_ sender: Any)
     {
         self.view.backgroundColor = UIColor.blue
+        
+        //On Your Own
+        firstLabel.text = "yay blue"
+        firstLabel.textColor = UIColor.red
+        
     }
     
     
